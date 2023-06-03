@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+}
+
+#menu{
+    height: 80 px;
+    padding: 0 20px;
+    
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #022d53;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #521111;
+}
+
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #022d53;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+
+}
+
+#anasayfa{
+    height: 600px;
+    background-image: 
+    url(../images/c2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#hakkimda{
+    background-color: antiquewhite;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize ;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 55px;
+    color: aliceblue;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+
+
+}
+
+#sol{
+    float:left;
+    border-right:3px solid #445c6e;
+    font-size: 30px;
+    width: 400px;
+    color: #415768;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+#h5sol,#sağ{
+    margin:o;
+    padding:0;
+    margin-top:  20px;
+}
+span{
+    font-size: 56px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #003666;
+    font-weight: 600;
+    float : left;
+}
+
+#sağ{
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 100;
+}
+
+.img-fluit{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 5px;
+    
+}
+
+#pson{
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+#egitimler{
+    background-color: antiquewhite;
+    padding: 50px;
+    text-align: center;
+    height: 800px;
+    border-top: 1px solid black;
+}
+
+.card{
+    width: 320px;
+    height: 550px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+
+.baslikcard{
+    font-size: 15px;
+    color: #003666;
+}
+.cardp{
+    color: #888;
+}
+
+.card:hover{
+    border: 2px solid 
+    gray;
+}
